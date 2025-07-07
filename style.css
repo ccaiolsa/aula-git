@@ -7,3 +7,13 @@ h1{
 body{
 	background: gray;
 }
+.caixa{
+	border: 0.5px solid lightblue;
+	border-radius: 7px;
+	background: orange;
+	box-shadow: 1px 1px 20px hsl( 50, 80%, 50%);
+}
+.caixa:focus{
+	border: none;
+	color: lightcyan;
+}
